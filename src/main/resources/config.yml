@@ -1,0 +1,46 @@
+# config.yml
+
+# Замените на токен вашего бота. Создать бота можно в @botfather.
+bot_token: "1234567890:qwertyuiopasdfghjklzxcvbnm"
+
+# Замените на юзернейм вашего бота (например @myminecraftbot).
+bot_username: "@testbot"
+
+# Chat ID группы (у всех супергрупп id начинается с -100).
+chat_id: -1001234567890
+
+# Формат выводимого в чат телеграма сообщения.
+tg_chat_format: "**{player}:** {message}"
+
+# Префикс сообщений из телеграма.
+telegram_placeholder:
+  text: "§9[§3Telegram§9]§r"
+  link: "https://t.me"
+  hovertext: "Присоединиться к группе."
+
+# Формат выводимого в чат майнкрафта сообщения.
+mc_chat_format: "§b{user}§r: {message}"
+
+# Разрешить игрокам включить/выключать пересылку своих сообщений
+# в чат (разрешение telegramforward.command.tg).
+allow_toggle_forwarding: true
+
+# Разрешить игрокам включать/выключать видимость сообщений
+# из телеграм чата.
+allow_toggle_see_messages: true
+
+# Разрешить администраторам чата исполнять команды (например /c help).
+admins_console: false
+
+# Имя исполнителя команд (/c).
+executor_name: "TgExecutor"
+
+# Пользовательские сообщения.
+texts:
+  tg_enable: "§aПересылка ваших сообщений включена"
+  tg_disable: "§cПересылка ваших сообщений выключена"
+
+  tg_see_enable: "§aОтображение сообщений из телеграм чата включено"
+  tg_see_disable: "§cОтображение сообщений из телеграм чата выключено"
+
+  reply_to_tg: "§3{player} -> {messageId}: {messageText}"

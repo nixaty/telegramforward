@@ -1,0 +1,17 @@
+name: telegramforward
+version: '${project.version}'
+main: heavenly.telegramforward.Telegramforward
+api-version: '1.20'
+commands:
+  tg:
+    description: Toggle forwarding your messages to telegram chat.
+    usage: /tg
+    permission: telegramforward.command.tg
+  tgshow:
+    description: Toggle visible telegram messages.
+    usage: /tgshow
+    permission: telegramforward.command.tgshow
+  tgreply:
+    description: Reply to telegram message.
+    usage: /tgreply <messageID> <message>
+    permission: telegramforward.command.tgreply
